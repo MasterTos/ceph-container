@@ -10,7 +10,7 @@ spec:
       restartPolicy: Never
       containers:
       - name: ceph-install
-        image: quay.io/coffeepac/ceph-install:latest
+        image: mastertos/ceph-install:latest
         volumeMounts:
         - mountPath: /etc
           name: etc

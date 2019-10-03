@@ -26,7 +26,7 @@ spec:
           path: /opt
       containers:
       - name: install-ceph
-        image: quay.io/coffeepac/ceph-install:latest
+        image: mastertos/ceph-install:latest
         volumeMounts:
         - mountPath: /etc
           name: etc
