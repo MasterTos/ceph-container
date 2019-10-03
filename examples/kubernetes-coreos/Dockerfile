@@ -1,5 +1,5 @@
 FROM busybox
-MAINTAINER Pat Christopher "coffeepac@gmail.com"
+LABEL maintainer="MasterTos.wt@gmail.com"
 
 ADD ceph /
 ADD rbd /
